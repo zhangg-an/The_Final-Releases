@@ -6,7 +6,7 @@
 
 进入仓库右侧的 **Releases**，打开标记为 **Latest** 的版本，下载：
 
-- `TheFinal-<版本号>-Windows-x64.zip`
+- `TheFinal-v<版本号>-Windows-x64.zip`
 - 同名的 `.sha256.txt` 校验文件
 
 请完整解压 ZIP 后，再双击文件夹内的 `TheFinal.exe`。不要直接在压缩包中运行，也不要只复制 EXE；程序所需的运行库位于同一文件夹中。
@@ -37,7 +37,7 @@
 下载后可在 PowerShell 中计算 SHA-256：
 
 ```powershell
-Get-FileHash .\TheFinal-1.0.0-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\TheFinal-v1.2.0-Windows-x64.zip -Algorithm SHA256
 ```
 
 结果应与 Release 中同名 `.sha256.txt` 文件一致。
