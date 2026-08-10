@@ -37,7 +37,7 @@
 下载后可在 PowerShell 中计算 SHA-256：
 
 ```powershell
-Get-FileHash .\TheFinal-v1.2.0-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\TheFinal-v1.2.1-Windows-x64.zip -Algorithm SHA256
 ```
 
 结果应与 Release 中同名 `.sha256.txt` 文件一致。
